@@ -1,0 +1,85 @@
+/*	app.css
+	Kevin Sau Yeung Kam
+	My Website
+	This is an css file for my website
+*/
+
+body {
+	/* gives a gradiant background */
+    background-image: url("assets/grey-white-gradient.png");
+    background-repeat: repeat-x;
+}
+
+
+/* gives a modified line bar */
+hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: groove;
+    border-width: 5px;
+} 
+
+/*gives a new font for these elements */
+h1,h2 {
+    font-family: "Arial Black", Gadget, sans-serif;
+}
+
+table {
+	background: transparent; 
+	border-color: transparent;
+	border-radius: 25px;
+}
+
+#bottom , #myImage{
+	background:#cccccc;
+	border: 2px;
+	border-radius: 25px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+#projectLogo{
+	border: 2px solid;
+	border-radius: 25px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+/*gives the button a diferent colour */
+
+.button{
+	box-shadow: 10px 10px 5px #888888;
+	background: #730000;
+}
+
+
+/*rounds the nav */
+.top-bar
+{
+	border: 2px;
+	border-radius: 25px;
+	background:#333333;
+}
+
+.top-bar-section ul li> a { 
+	background: #333333 !important;
+}
+
+.top-bar-section ul li.active > a { 
+	background: #ffffff !important;
+	color: black !important;
+	opacity: .5;
+}
+
+/*breadcrumbs had a grey background, wanted transparent*/
+.breadcrumbs{
+	background: transparent; 
+	border-color: transparent;
+	border-top-right-radius: 25px;
+	border-bottom-right-radius: 25px;
+}
+
+.breadcrumbs ul li>a{
+	color: black;
+}	
