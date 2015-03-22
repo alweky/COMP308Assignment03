@@ -12,11 +12,65 @@
   <body>
     <% include partials/header.ejs %>
       
+      <div class="row">
+		<div class="large-12 columns">
+		<!-- Orbital quite a bit of options, pauses the oribtal when the mouse is over. -->
+			<ul class="example-orbit" data-orbit data-options="animation_speed: 500; timer_speed: 4000; pause_on_hover: true; resume_on_mouseout: true;">
+				<li>
+					<a href="projectJumper.html">
+					<img src="assets/jumperSlider.png" alt="" />
+					<div class="orbit-caption">
+						Jumper!
+					</div>
+					</a>
+				</li>
+				<li>
+					<a href="projectAdvancedSpaceWars.html">
+					<img src="assets/advancedSpaceWarsSlider.png" alt="" />
+					<div class="orbit-caption">
+						Advanced Space Wars
+					</div>
+					</a>
+				</li>
+				<li>
+					<a href="projectSolarSystem.html">
+					<img src="assets/solarSystemSlider.png" alt="" />
+					<div class="orbit-caption">
+						ThreeJS Solar System
+					</div>
+					</a>
+				</li>
+				<li>
+					<a href="projectAndroidHealth.html">
+					<img src="assets/androidHealthSlider.png" alt="" />					
+					<div class="orbit-caption">
+						Android Health App
+					</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<div class="row">
+		<article class="large-12 columns large-offset-1">
+			<h2>Hello! I'm a Software Engineer</h2>
+			<p>
+				This means that I solve problems... which is something that I enjoy doing
+				<br>
+				I enjoy using computers and am looking to have a career that involves them
+				<br>
+				This website contains information about me. Click on the items in the nav bar to learn more about me!
+				<br>				
+			</p>
+		</article>
+	</div>
+	<div>
+	</div>
+      
     <% include partials/footer.ejs %>
       
       <script src="scripts/libs/jquery.js"></script>
 	<script src="scripts/libs/foundation.min.js"></script>
 	<script>$(document).foundation()</script>
-  </body>
-    
+  </body>    
 </html>
