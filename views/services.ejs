@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8" />
+        <title>Kevin Sau Yeung Kam</title>
+        <link rel="stylesheet" href="css/foundation.min.css" />		
+        <link rel="stylesheet" href="css/normalize.css" />		
+        <link rel="stylesheet" href="css/app.css" />
+        <script src="scripts/libs/modernizr.js"></script>
+  </head>
+  <body>
+    <% include partials/header.ejs %>      
+      <div class="row">
+		<article class="large-12 columns large-offset-1">
+			<h2>Services</h2>
+			<p>
+				Below are some services that I offer
+			</p>
+			<table>
+				<thead>
+					<tr>
+						<th></th>
+						<th>Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>
+							<a href="/servicesDevelopment">
+								<img src="assets/development.jpg" alt="" />
+							</a>
+						</td>
+						<td>
+							<h5>Development</h5>							
+							<p>I have experience using many different object oriented languages and non object oriented languages and an understanding of Agile Development process
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="/servicesWebDesign">"
+								<img src="assets/webDesign.jpg" alt="" />
+							</a>
+						</td>
+						<td>
+							<h5>Web Development</h5>							
+							<p>I have experience creating webpages. Some examples of webpages include this website.
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="/servicesTutoring">
+								<img src="assets/tutoring.jpg" alt="" />
+							</a>
+						</td>
+						<td>
+							<h5>Tutoring</h5>							
+							<p>I have over three years of tutoring and also over eight months of professional experience at Centennial College 
+							</p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</article>
+	</div>
+      
+    <% include partials/footer.ejs %>
+      
+      <script src="scripts/libs/jquery.js"></script>
+	<script src="scripts/libs/foundation.min.js"></script>
+	<script>$(document).foundation()</script>
+  </body>
+    
+</html>
