@@ -17,20 +17,20 @@ router.get('/projects', function(req, res, next) {
 });
 
 /* GET sub projects page. */
-router.get('/projects/projectAdvancedSpaceWars', function(req, res, next) {
-  res.render('projects/projectAdvancedSpaceWars', { title: 'Projects' });
+router.get('/projectAdvancedSpaceWars', function(req, res, next) {
+  res.render('projectAdvancedSpaceWars', { active3: 'has-dropdown', active1: '', active2: '', active3a: 'active' });
 });
 
-router.get('/projects/projectAndroidHealth', function(req, res, next) {
-  res.render('projects/projectAndroidHealth', { title: 'Projects' });
+router.get('/projectAndroidHealth', function(req, res, next) {
+  res.render('projectAndroidHealth', { active3: 'has-dropdown', active1: '', active2: '', active3a: 'active' });
 });
 
-router.get('/projects/projectJumper', function(req, res, next) {
-  res.render('projects/projectJumper', { title: 'Projects' });
+router.get('/projectJumper', function(req, res, next) {
+  res.render('projectJumper', { active3: 'has-dropdown', active1: '', active2: '', active3a: 'active' });
 });
 
-router.get('/projects/projectSolarSystem', function(req, res, next) {
-  res.render('projects/projectSolarSystem', { title: 'Projects' });
+router.get('/projectSolarSystem', function(req, res, next) {
+  res.render('projectSolarSystem', { active3: 'has-dropdown', active1: '', active2: '', active3a: 'active' });
 });
 
 /* GET services page. */
