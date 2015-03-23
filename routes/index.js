@@ -3,17 +3,17 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { active1: 'active', active2: '', active3: 'has-dropdown' });
+  res.render('index', { active1: 'active', active2: '', active3: 'has-dropdown', active3a: '' });
 });
 
 /* GET about page. */
 router.get('/aboutMe', function(req, res, next) {
-  res.render('aboutMe', { active2: 'active', active1: '', active3: '' });
+  res.render('aboutMe', { active2: 'active', active1: '', active3: 'has-dropdown', active3a: '' });
 });
 
 /* GET projects page. */
 router.get('/projects', function(req, res, next) {
-  res.render('projects', { active3: 'has-dropdown active', active1: '', active2: '' });
+  res.render('projects', { active3: 'has-dropdown', active1: '', active2: '', active3a: 'active' });
 });
 
 /* GET sub projects page. */
