@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8" />
+        <title>Kevin Sau Yeung Kam</title>
+        <link rel="stylesheet" href="css/foundation.min.css" />		
+        <link rel="stylesheet" href="css/normalize.css" />		
+        <link rel="stylesheet" href="css/app.css" />
+        <script src="scripts/libs/modernizr.js"></script>
+  </head>
+  <body>
+    <% include partials/header.ejs %>
+      
+      <div class="row">	
+		<div class="large-12 columns large-offset-1">
+		<div class="row">
+			<div class="large-3 columns">
+				<img src="assets/solarSystemThumb.png" id="projectLogo">
+			</div>
+			<div class="large-9 columns">
+				<h2>ThreeJS Solar System <a href="htmlProjects/SolarSystem/index.html" class="button small round">Play Here!</a></h2>
+			</div>
+		</div>
+			<br></br>
+			<!-- Since this is basically one semi-static program, really one screenshot is required-->
+			<ul class="clearing-thumbs" data-clearing>
+				<li><a href="assets/solarSystem01.png"><img src="assets/solarSystem01.png" height="300" width="200"></a></li>
+			</ul>
+		</div>
+	</div>	
+	<div class="row">
+		<article class="large-12 columns large-offset-1">
+			<h2>Description</h2>
+			<p>
+				This ThreeJS model that was developed for the COMP392 course (Advacned Graphics). This is a solar system model which includes all eight planets (distances not to scale) and two moons of Saturn.
+				<br></br>
+				Some features of this Game include
+				<ul>
+				<li><strong>Speed Scroll: </strong>increase or decrease how fast the planets are moving
+				</li>
+				<li><strong>Stop Simulation: </strong>you can also pause as well
+				</li>
+				</ul>
+			</p>
+		</article>
+	</div>
+      
+    <% include partials/footer.ejs %>
+      
+      <script src="scripts/libs/jquery.js"></script>
+	<script src="scripts/libs/foundation.min.js"></script>
+	<script>$(document).foundation()</script>
+  </body>
+    
+</html>

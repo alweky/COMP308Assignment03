@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8" />
+        <title>Kevin Sau Yeung Kam</title>
+        <link rel="stylesheet" href="css/foundation.min.css" />		
+        <link rel="stylesheet" href="css/normalize.css" />		
+        <link rel="stylesheet" href="css/app.css" />
+        <script src="scripts/libs/modernizr.js"></script>
+  </head>
+  <body>
+    <% include partials/header.ejs %>
+      
+      <div class="row">	
+		<div class="large-12 columns large-offset-1">
+		<div class="row">
+			<div class="large-3 columns">
+				<img src="assets/jumperThumb.png" id="projectLogo">
+			</div>
+			<div class="large-9 columns">
+				<h2>Jumper! <a href="htmlProjects/Jumper/index.html" class="button small round">Play Here!</a></h2>
+			</div>
+		</div>
+			<br></br>
+			<ul class="clearing-thumbs" data-clearing>
+				<li><a href="assets/jumper04.png"><img src="assets/jumper04.png" height="300" width="200"></a></li>
+				<li><a href="assets/jumper02.png"><img src="assets/jumper02.png" height="300" width="200"></a></li>
+				<li><a href="assets/jumper03.png"><img src="assets/jumper03.png" height="300" width="200"></a></li>
+				<li><a href="assets/jumper01.png"><img src="assets/jumper01.png" height="300" width="200"></a></li>
+			</ul>
+		</div>
+	</div>	
+	<div class="row">
+		<article class="large-12 columns large-offset-1">
+			<h2>Description</h2>
+			<p>
+				This HTML5 game was developed for the COMP397 course (Web Game Programming). This is platforming game based on the box2d engine where players take control of a gum stick and have it transverse the many lands that present itself to it
+				<br></br>
+				Some features of this Game include
+				<ul>
+				<li><strong>Realistic Physics!: </strong>game based on Box2d engine
+				</li>
+				<li><strong>Water Level: </strong>not only can you jump around in this game, but in the second world, you can also swim
+				</li>
+				</ul>
+			</p>
+		</article>
+	</div>
+      
+    <% include partials/footer.ejs %>
+      
+      <script src="scripts/libs/jquery.js"></script>
+	<script src="scripts/libs/foundation.min.js"></script>
+	<script>$(document).foundation()</script>
+  </body>
+    
+</html>

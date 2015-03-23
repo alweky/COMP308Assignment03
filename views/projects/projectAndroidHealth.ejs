@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8" />
+        <title>Kevin Sau Yeung Kam</title>
+        <link rel="stylesheet" href="css/foundation.min.css" />		
+        <link rel="stylesheet" href="css/normalize.css" />		
+        <link rel="stylesheet" href="css/app.css" />
+        <script src="scripts/libs/modernizr.js"></script>
+  </head>
+  <body>
+    <% include partials/header.ejs %>
+      
+      <div class="row">	
+		<div class="large-12 columns large-offset-1">
+		<div class="row">
+			<div class="large-3 columns">
+				<img src="assets/androidHealthThumb.png" id="projectLogo">
+			</div>
+			<div class="large-9 columns">
+				<h2>Android Health App</h2>
+			</div>
+		</div>
+			<br></br>
+			<ul class="clearing-thumbs" data-clearing>
+				<li><a href="assets/androidHealth01.png"><img src="assets/androidHealth01.png" height="300" width="200"></a></li>
+				<li><a href="assets/androidHealth02.png"><img src="assets/androidHealth02.png" height="300" width="200"></a></li>
+				<li><a href="assets/androidHealth03.png"><img src="assets/androidHealth03.png" height="300" width="200"></a></li>
+				<li><a href="assets/androidHealth04.png"><img src="assets/androidHealth04.png" height="300" width="200"></a></li>
+			</ul>
+		</div>
+	</div>	
+	<div class="row">
+		<article class="large-12 columns large-offset-1">
+			<h2>Description</h2>
+			<p>
+				This app was developed for the COMP304 course (Wireless Programming). It allowed users to enter in vital data such as heart-rate, blood pressure, etc... and send these inputs to an web service.
+				<br></br>
+				Some features of this app include
+				<ul>
+				<li><strong>User Login: </strong>login screen can take both patient and nurse login
+				</li>
+				<li><strong>Vital Sign: </strong>allow the input of vital signs by a nurse that will be sent to an external database 
+				</li>
+				<li><strong>Watch Videos: </strong>motivational video to promote patients to exercise more
+				</li>
+				<li><strong>Signs and Symptoms Checklist: </strong>check certain symptoms and receive possible illnesses
+				</li>
+				<li><strong>Send and Receive Health Text: </strong>allows Nurses and Patients to send and receive texts of health related issues
+				</li>
+				<li><strong>Location Tracking: </strong>allows Nurses too locate Patients
+				</li>
+				</ul>
+			</p>
+		</article>
+	</div>
+      
+    <% include partials/footer.ejs %>
+      
+      <script src="scripts/libs/jquery.js"></script>
+	<script src="scripts/libs/foundation.min.js"></script>
+	<script>$(document).foundation()</script>
+  </body>
+    
+</html>
